@@ -1934,8 +1934,9 @@ class BaseHtml
                             $selected = $selection === $key;
                         } elseif ($strict) {
                             $selected = !strcmp((string)$key, (string)$selection);
-                        } else {
-                            $selected = is_object($selection) ? $selection->value == $key : $selection == $key;
+			} else {
+			    $selected = is_object($selection) && property_exists($selection, 'value') ?
+                                $selection->value == $key : $selection == $key;	
                         }
                     }
 
