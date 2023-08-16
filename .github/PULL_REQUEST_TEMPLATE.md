@@ -1,6 +1,3 @@
-| Q             | A
-| ------------- | ---
-| Is bugfix?    | ✔️/❌
-| New feature?  | ✔️/❌
-| Breaks BC?    | ✔️/❌
-| Fixed issues  | <!-- comma-separated list of tickets # fixed by the PR, if any -->
+<!--
+Please use https://github.com/yiisoft/yii2 to report issues and send pull requests. Thank you!
+-->
